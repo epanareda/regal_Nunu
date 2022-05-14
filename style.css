@@ -43,6 +43,8 @@ select .num_option {
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
     body {
+        font-size: 100%;
+
         background-size: 350px;
         background-repeat:no-repeat;
         background-position: center center;
