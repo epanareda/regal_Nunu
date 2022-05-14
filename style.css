@@ -2,12 +2,16 @@ body{
     padding-top: 3%;
     padding-bottom: 2%;
     font-size: 150%;
+
+    background-size: 400px;
+    background-repeat:no-repeat;
+    background-position: center center;
 }
 
 select {
     width: 8%;
     padding: 2%;
-    font-size: 350%;
+    font-size: 300%;
     border-radius: 20%;
 }
 
@@ -35,10 +39,13 @@ select .num_option {
     border-radius: 15%;
 }
 
+
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
     body {
-        font-size: 100%;
+        background-size: 350px;
+        background-repeat:no-repeat;
+        background-position: center center;
     }
 
     select {

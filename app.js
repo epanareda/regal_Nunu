@@ -1,4 +1,4 @@
-var combination = [1,2,3,4,5]
+var combination = [7,5,2,9,7]
 
 var button = document.getElementById("check");
 var open_btn = document.getElementById("acces")
